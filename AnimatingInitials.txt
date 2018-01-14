@@ -1,0 +1,11 @@
+
+
+Animating Initial
+
+When the system loads, the program will display translated ‘SG’ in-order to display the letters in the top right half of the screen and then it rotates the letters four full circles and then stopes at the initial point. 
+Pressing the left, right, up and down key on the keyboard moves the shape ten units left, right, up and down respectively.  (I have used glutSpecialFunc(SpecialInput) call-back function to record user inputs from Arrow keys(????)
+Pressing ‘s’ key on the keyboard scales up the letters and pressing ‘d’ shrinks the size in reference to fixed point (100,100).  
+Pressing ‘c’, iterates the background colour.
+Pressing ‘r’, rotates the shape clockwise around the origin and pressing ‘l’ rotates the shape anticlockwise. 
+
+ 
